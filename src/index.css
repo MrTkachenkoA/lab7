@@ -1,8 +1,8 @@
 .tourist-routes_wrapper {
     display: flex;
     align-items: center;
-    padding: 50px;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .tourist-routes {
@@ -39,7 +39,7 @@
 .tourist-routes_list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .tourist-routes_list h2 {
@@ -52,4 +52,11 @@
     font-size: 20px;
     margin: 0;
     padding: 5px 0;
+}
+
+.tourist-routes_list button {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px 10px;
 }
